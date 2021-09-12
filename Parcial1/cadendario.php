@@ -6,11 +6,17 @@
  <!-- 
   *
   * Unime - União Metropolitana de Educação e Cultura Curso: Bacharelado em
-  * Sistemas de Informação Disciplina: Programação Orientada a Objetos II
+  * Sistemas de Informação Disciplina: Programação Web II
   * Professor(a): Pablo Ricardo Roxo Silva
   * Aluno(a): Jéssica Silva de Jesus
   *
   *-->
+
+  <!-- (40%) 2 - Crie uma aplicação em PHP que receberá dois valores do usuário: um valor numérico e um de
+    texto. O usuário deverá digitar um número, por exemplo, 7, e um texto, por exemplo “Julho”. Então a
+    aplicação verificará se o número digitado corresponde ao mês do ano referente a ele. A aplicação deve
+    aceitar que o usuário digite o nome do mês da forma que quiser: “Julho”, “julho”, “JULHO”, etc. Caso o mês
+    seja correspondente, então deve informar que o mês está correto. Senão, informar que está incorreto. -->
 
   <!-- Estilo css -->
   <style>
@@ -79,11 +85,11 @@
 
         <div >
             <label>Número:</label>
-            <input type="number" class="form-control  mb-3" name="numero" min= max="12" placeholder="Digite a sua primeira nota">
+            <input type="number" class="form-control  mb-3" name="numero" min= max="12" placeholder="Digite o numero dou mês">
         </div>
         <div >
             <label>Mês:</label>
-            <input type="text" class="form-control  mb-3" name="mes" placeholder="Digite a sua primeira nota">
+            <input type="text" class="form-control  mb-3" name="mes" placeholder="Informe o nome no mês">
         </div>
         <input type="hidden" name="form_calendario" />
         <button type="submit" class="btn btn-danger">Verificar</button>

@@ -6,12 +6,17 @@
   <!-- 
   *
   * Unime - União Metropolitana de Educação e Cultura Curso: Bacharelado em
-  * Sistemas de Informação Disciplina: Programação Orientada a Objetos II
+  * Sistemas de Informação Disciplina: Programação Web II
   * Professor(a): Pablo Ricardo Roxo Silva
   * Aluno(a): Jéssica Silva de Jesus
   *
   *-->
 
+<!-- (40%) 1 - Crie uma aplicação em PHP para controlar as notas de um aluno. O aluno possuirá três notas de
+   provas. O sistema deve obtê-las, calcular a média aritmética, e exibir na tela. Após exibir a média, deve
+   informar o status do aluno. Se a nota foi a partir de 7,0, então ele está aprovado. Se a nota foi pelo menos
+  4,0, então ele tem direito a uma recuperação. Senão, ele está automaticamente reprovado. -->
+  
   <!-- Estilo css -->
   <style>
     body {
