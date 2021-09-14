@@ -12,11 +12,17 @@
   *
   *-->
 
-<!-- (40%) 1 - Crie uma aplicação em PHP para controlar as notas de um aluno. O aluno possuirá três notas de
-   provas. O sistema deve obtê-las, calcular a média aritmética, e exibir na tela. Após exibir a média, deve
-   informar o status do aluno. Se a nota foi a partir de 7,0, então ele está aprovado. Se a nota foi pelo menos
-  4,0, então ele tem direito a uma recuperação. Senão, ele está automaticamente reprovado. -->
-  
+
+  <!-- 
+  *
+  * (40%) 1 - Crie uma aplicação em PHP para controlar as notas de um aluno. O aluno possuirá três notas de
+  * provas. O sistema deve obtê-las, calcular a média aritmética, e exibir na tela. Após exibir a média, deve
+  * informar o status do aluno. Se a nota foi a partir de 7,0, então ele está aprovado. Se a nota foi pelo menos
+  * 4,0, então ele tem direito a uma recuperação. Senão, ele está automaticamente reprovado.
+  *
+  *-->
+
+
   <!-- Estilo css -->
   <style>
     body {
@@ -79,7 +85,7 @@
       <form method="POST">
         <div>
           <label>Nome:</label>
-          <input type="text" class="form-control  mb-3" name="nome" placeholder="Digite a sua primeira nota" min="0" max="10" step="0.01" required>
+          <input type="text" class="form-control  mb-3" name="nome" placeholder="Digite a sua primeira nota" required>
         </div>
         <div>
           <label>Nota 1:</label>
@@ -91,7 +97,7 @@
         </div>
         <div>
           <label>Nota 3:</label>
-          <input type="number" class="form-control  mb-3" name="nota3" placeholder="Digite a sua terceira nota" required>
+          <input type="number" class="form-control  mb-3" name="nota3" placeholder="Digite a sua terceira nota" min="0" max="10" step="0.01" required>
         </div>
 
         <input type="hidden" name="form_nota" />
