@@ -60,7 +60,7 @@
         $mes = trim(strtolower($mes));
 
         $mesAno  = [
-            "janeiro", "severeiro",
+            "janeiro", "fevereiro",
             "março", "abril",
             "maio", "junho",
             "julho", "agosto",
